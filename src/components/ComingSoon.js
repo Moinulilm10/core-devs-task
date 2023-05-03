@@ -1,8 +1,7 @@
 import Counter from './Counter';
 import SubscriptionForm from './SubscriptionForm';
 
-
-//! error fix in 6th line. There should be export default instead of export function
+//? error fix in 6th line. There should be export default instead of export function
 export default function comingSoon() {
   return (
     <div className="size1 overlay1">
@@ -10,7 +9,6 @@ export default function comingSoon() {
         <h3 className="l1-txt1 txt-center p-b-25">
           Coming Soon
         </h3>
-
         <p className="m2-txt1 txt-center p-b-48">
           Our website is under construction, follow us for update now!
         </p>
